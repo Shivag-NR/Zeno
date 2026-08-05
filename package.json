@@ -1,0 +1,20 @@
+{
+  "name": "chess-backend-demo",
+  "version": "1.0.0",
+  "description": "Authoritative real-time chess backend: 2 players, up to 100 read-only spectators",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "chess.js": "^1.0.0-beta.8",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
